@@ -7,8 +7,9 @@
 
 #### 安装依赖
 ```shell
-apt update && apt install ffmpeg python3
+apt update && apt install wget ffmpeg python3
 ffmpeg -version #查看版本
+wget https://raw.githubusercontent.com/ibook86/tools/main/ffmpeg2png.py
 ```
 ```shell
 python3 ffmpeg2png.py
